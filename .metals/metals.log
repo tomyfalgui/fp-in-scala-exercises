@@ -1,0 +1,568 @@
+2023.01.15 10:07:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+Jan 15, 2023 10:07:29 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: Missing header Content-Length in input "
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Jan 15, 2023 10:07:30 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: Missing header Content-Length in input "
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2023.01.15 10:07:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:09:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:09:23 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:09:23 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+2023.01.15 10:09:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:10:43 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:10:43 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:10:43 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:10:46 INFO  time: initialize in 3.02s[0m
+2023.01.15 10:13:34 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:13:34 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:13:34 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:13:52 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.9/scalafmt-config_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.9/scalafmt-sysops_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.12/scalameta_2.13-4.5.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.9/scalafmt-core_2.13-3.5.9.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.12/trees_2.13-4.5.12.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.12/common_2.13-4.5.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (34.03 %, 425984 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (41.88 %, 524288 / 1251801)
+
+2023.01.15 10:16:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:16:41 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:16:41 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:16:41 INFO  time: initialize in 0.64s[0m
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (49.33 %, 617472 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (55.87 %, 699392 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (61.11 %, 764928 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (66.34 %, 830464 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (71.58 %, 896000 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (78.12 %, 977920 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (83.36 %, 1043456 / 1251801)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar (92.52 %, 1158144 / 1251801)
+
+2023.01.15 10:17:26 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:17:26 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:17:26 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.12/parsers_2.13-4.5.12.jar
+2023.01.15 10:17:28 INFO  shutting down Metals[0m
+2023.01.15 10:17:28 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.15 10:17:34 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:17:34 INFO  shutting down Metals[0m
+2023.01.15 10:17:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:17:38 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:17:38 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:17:39 INFO  time: initialize in 0.8s[0m
+2023.01.15 10:17:39 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:17:39 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:17:38 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:17:41 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:17:41 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.15 10:17:42 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:17:47 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:17:49 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+Jan 15, 2023 10:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2023 10:17:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:18:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jan 15, 2023 10:18:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 15, 2023 10:18:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 15, 2023 10:18:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 15, 2023 10:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 15, 2023 10:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 15, 2023 10:18:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2023.01.15 10:18:17 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:18 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:18 INFO  shutting down Metals[0m
+2023.01.15 10:18:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:18:22 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:18:22 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:18:23 INFO  time: initialize in 0.79s[0m
+2023.01.15 10:18:23 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:18:23 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:18:24 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:25 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:25 INFO  shutting down Metals[0m
+2023.01.15 10:18:25 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.15 10:18:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@72b858c1[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 107]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.01.15 10:18:27 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:18:27 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:18:28 INFO  time: initialize in 0.82s[0m
+2023.01.15 10:18:28 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:18:28 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:18:27 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:29 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:29 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.15 10:18:30 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:34 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:35 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:36 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:18:51 INFO  shutting down Metals[0m
+2023.01.15 10:19:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomy/dev/fp-in-scala/.metals/lsp.trace.json or /Users/tomy/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.01.15 10:19:04 INFO  logging to file /Users/tomy/dev/fp-in-scala/.metals/metals.log[0m
+2023.01.15 10:19:04 INFO  Started: Metals version 0.11.10 in workspace '/Users/tomy/dev/fp-in-scala' for client Neovim 0.8.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/tomy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.15 10:19:05 INFO  time: initialize in 0.8s[0m
+2023.01.15 10:19:05 WARN  Build server is not auto-connectable.[0m
+2023.01.15 10:19:05 WARN  no build tool detected in workspace '/Users/tomy/dev/fp-in-scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.01.15 10:19:05 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:19:05 WARN  no build target for: /Users/tomy/dev/fp-in-scala/Chap2.scala[0m
+2023.01.15 10:19:07 INFO  no build target found for /Users/tomy/dev/fp-in-scala/MyModule.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.15 10:19:11 WARN  no build target for: /Users/tomy/dev/fp-in-scala/Chap2.scala[0m
+2023.01.15 10:19:24 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+Jan 15, 2023 10:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jan 15, 2023 10:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 15, 2023 10:19:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jan 15, 2023 10:19:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jan 15, 2023 10:19:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:19:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Jan 15, 2023 10:19:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jan 15, 2023 10:19:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jan 15, 2023 10:19:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2023 10:19:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2023 10:19:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2023 10:19:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:19:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Jan 15, 2023 10:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:19:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jan 15, 2023 10:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jan 15, 2023 10:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jan 15, 2023 10:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jan 15, 2023 10:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Jan 15, 2023 10:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Jan 15, 2023 10:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jan 15, 2023 10:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jan 15, 2023 10:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jan 15, 2023 10:19:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jan 15, 2023 10:19:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jan 15, 2023 10:19:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2023.01.15 10:19:51 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+Jan 15, 2023 10:19:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jan 15, 2023 10:19:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jan 15, 2023 10:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 15, 2023 10:19:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:19:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:20:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2023.01.15 10:20:08 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:20:09 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+Jan 15, 2023 10:20:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 15, 2023 10:20:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2023.01.15 10:20:15 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:20:17 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:20:18 WARN  no build target for: /Users/tomy/dev/fp-in-scala/MyModule.scala[0m
+2023.01.15 10:20:20 WARN  no build target for: /Users/tomy/dev/fp-in-scala/Chap2.scala[0m
+2023.01.15 10:20:20 INFO  shutting down Metals[0m
