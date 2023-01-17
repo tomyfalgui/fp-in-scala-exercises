@@ -16,8 +16,16 @@ object List {
 
   // exercise 3.2 tail function
   def tail[A](list: List[A]): List[A] = list match {
-    case Nil              => List()
+    case Nil              => sys.error("list is empty")
     case Cons(head, tail) => tail
+  }
+
+  def drop[A](l: List[A], n: Int): List[A] = {}
+
+  // exercise 3.3 setHead function
+  def setHead[A](nh: A, list: List[A]): List[A] = list match {
+    case Nil           => List()
+    case Cons(_, tail) => Cons(nh, tail)
   }
 
   def apply[A](as: A*): List[A] =
