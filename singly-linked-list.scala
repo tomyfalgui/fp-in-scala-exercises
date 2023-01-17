@@ -29,8 +29,13 @@ object List {
         case Cons(_, tail) => drop(tail, n - 1)
 
       }
-
   }
+
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] =
+    l match {
+      case Cons(head, tail) if f(head) => dropWhile(tail, f)
+      case _                           => l
+    }
 
   // exercise 3.3 setHead function
   def setHead[A](nh: A, list: List[A]): List[A] = list match {
@@ -41,6 +46,13 @@ object List {
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
+
+  def main(args: Array[String]): Unit = {
+    val x = List(1, 2, 3, 4)
+    val z = dropWhile(x, (a) => a < 4)
+    println(z)
+
+  }
 
 }
 
