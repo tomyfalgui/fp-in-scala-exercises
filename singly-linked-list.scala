@@ -32,9 +32,9 @@ object List {
   }
 
   // exercise 3.5 dropWhile
-  def dropWhile[A](l: List[A], f: A => Boolean): List[A] =
+  def dropWhile[A](l: List[A])(f: A => Boolean): List[A] =
     l match {
-      case Cons(head, tail) if f(head) => dropWhile(tail, f)
+      case Cons(head, tail) if f(head) => dropWhile(tail)(f)
       case _                           => l
     }
 
@@ -43,7 +43,7 @@ object List {
     l match {
       case Cons(_, Nil) => Nil
       case Cons(h, t)   => Cons(h, init(t))
-      case Nil => sys.error("List is empty")
+      case Nil          => sys.error("List is empty")
     }
 
   // exercise 3.3 setHead function
@@ -58,9 +58,8 @@ object List {
 
   def main(args: Array[String]): Unit = {
     val x = List(1, 2, 3, 4)
-    // val z = dropWhile(x, (a) => a < 4)
-    // println(z)
-    //
+    val z = dropWhile(x)(x => x < 3)
+    println(z)
 
     val zx = init(x)
     println(zx)
