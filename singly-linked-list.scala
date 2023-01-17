@@ -16,11 +16,21 @@ object List {
 
   // exercise 3.2 tail function
   def tail[A](list: List[A]): List[A] = list match {
-    case Nil              => sys.error("list is empty")
-    case Cons(head, tail) => tail
+    case Nil           => sys.error("list is empty")
+    case Cons(_, tail) => tail
   }
 
-  def drop[A](l: List[A], n: Int): List[A] = {}
+  // exercise 3.4 drop function
+  def drop[A](l: List[A], n: Int): List[A] = {
+    if (n <= 0) l
+    else
+      l match {
+        case Nil           => sys.error("List is empty")
+        case Cons(_, tail) => drop(tail, n - 1)
+
+      }
+
+  }
 
   // exercise 3.3 setHead function
   def setHead[A](nh: A, list: List[A]): List[A] = list match {
