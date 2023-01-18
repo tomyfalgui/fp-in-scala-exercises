@@ -98,8 +98,20 @@ object List {
   // 3.15
   def flatten[A](a1: List[List[A]]): List[A] = {
     foldRight(a1, Nil: List[A])(append)
-
   }
+
+  // 3.16
+  def incrementEach(l: List[Int]): List[Int] = {
+    foldRight(l, Nil: List[Int])((x, y) => Cons(x + 1, y))
+  }
+
+  // 3.17
+  def doubleToString(l: List[Double]): List[String] = {
+    foldRight(l, Nil: List[String])((h, t) => Cons(h.toString, t))
+  }
+
+  def map[A, B](as: List[A])(f: A => B): List[B] =
+    foldRight(as, Nil: List[B])((h, t) => Cons(f(h), t))
 
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
@@ -108,7 +120,19 @@ object List {
   def main(args: Array[String]): Unit = {
     val l = List(List(1, 2, 3, 4), List(1, 2, 3, 4))
     val flattened = flatten(l)
+
     println(flattened)
+
+    val l2 = List(1, 2, 3, 4)
+    val l2plus = incrementEach(l2)
+    println(l2plus)
+
+    val d = List(1.0, 2.0, 3.0)
+    val dstring = doubleToString(d)
+    println(dstring)
+
+    val dtimes2 = map(d)(a => a * 2.0)
+    println(dtimes2)
 
   }
 
