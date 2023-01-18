@@ -118,8 +118,30 @@ object List {
   def filter[A](as: List[A])(f: A => Boolean): List[A] =
     foldRight(as, Nil: List[A])((h, t) => if (f(h)) Cons(h, t) else t)
 
+  // 3.20
   def flatMap[A, B](as: List[A])(f: A => List[B]): List[B] =
-    flatten(map(as, f))
+    flatten(map(as)(f))
+
+  // 3.21
+  def filterViaFlatmap[A](as: List[A])(f: A => Boolean): List[A] =
+    flatMap(as)(a => if (f(a)) List(a) else List())
+
+  // 3.22
+  def addPairwise(a: List[Int], b: List[Int]): List[Int] = {
+
+    (a,b) match 
+      case (Nil, _) => Nil
+      case (_, Nil) => Nil
+      case (Cons(h1, t1), Cons(h2, t2)) => Cons(h1 + h2, addPairwise(t1, t2))
+  }
+
+  def zipWith[A](a: List[A], b: List[A])(f: (A, A) => A): List[A] = {
+    (a,b) match
+      case (Nil, _) => Nil
+      case (_, Nil) => Nil
+      case (Cons(h1, t1), Cons(h2, t2)) => Cons(f(h1, h2), zipWith(t1, t2)(f))
+  }
+
 
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
@@ -143,8 +165,11 @@ object List {
     println(dtimes2)
 
     val l5 = List(1, 2, 3, 4, 5, 6)
-    val fl5 = filter(l5)(a => a % 2 == 0)
+    val fl5 = filterViaFlatmap(l5)(a => a % 2 == 0)
     println(fl5)
+
+    val zx = zipWith(l2, l5)((a, b) => a - b)
+    println(zx)
 
   }
 
