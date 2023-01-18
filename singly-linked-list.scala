@@ -110,8 +110,13 @@ object List {
     foldRight(l, Nil: List[String])((h, t) => Cons(h.toString, t))
   }
 
+  // 3.18
   def map[A, B](as: List[A])(f: A => B): List[B] =
     foldRight(as, Nil: List[B])((h, t) => Cons(f(h), t))
+
+  // 3.19
+  def filter[A](as: List[A])(f: A => Boolean): List[A] =
+    foldRight(as, Nil: List[A])((h, t) => if (f(h)) Cons(h, t) else t)
 
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
@@ -133,6 +138,10 @@ object List {
 
     val dtimes2 = map(d)(a => a * 2.0)
     println(dtimes2)
+
+    val l5 = List(1, 2, 3, 4, 5, 6)
+    val fl5 = filter(l5)(a => a % 2 == 0)
+    println(fl5)
 
   }
 
