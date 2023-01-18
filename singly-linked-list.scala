@@ -58,6 +58,19 @@ object List {
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
     }
 
+  // 3.12
+  def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
+    @annotation.tailrec
+    def go(as: List[A], z: B): B =
+      as match {
+        case Nil         => z
+        case Cons(x, xs) => go(xs, f(z, x))
+      }
+
+    go(as, z)
+
+  }
+
   // exercise 3.9
   def length[A](as: List[A]) =
     foldRight(as, 0)((_, y) => y + 1)
@@ -68,20 +81,37 @@ object List {
   def product2(ns: List[Double]) =
     foldRight(ns, 1.0)(_ * _)
 
+  // exercise 3.13
+  def length2[A](as: List[A]) =
+    foldLeft(as, 0)((x, _) => x + 1)
+
+  def sum3(ns: List[Int]) =
+    foldLeft(ns, 0)(_ + _)
+
+  def product3(ns: List[Double]) =
+    foldRight(ns, 1.0)(_ * _)
+
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
 
   def main(args: Array[String]): Unit = {
     val x = List(1, 2, 3, 4)
+    val y = List(1.0, 2.0, 3.0, 4.0)
     val z = dropWhile(x)(x => x < 3)
     println(z)
 
     val zx = init(x)
     println(zx)
 
-    val lengthZx = length(x)
+    val lengthZx = length2(x)
     println(lengthZx)
+
+    val sumx = sum3(x)
+    println(sumx)
+
+    val productx = product3(y)
+    println(productx)
 
   }
 
