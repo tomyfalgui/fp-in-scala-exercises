@@ -58,6 +58,10 @@ object List {
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
     }
 
+  // exercise 3.9
+  def length[A](as: List[A]) =
+    foldRight(as, 0)((_, y) => y + 1)
+
   def sum2(ns: List[Int]) =
     foldRight(ns, 0)((x, y) => x + y)
 
@@ -75,6 +79,9 @@ object List {
 
     val zx = init(x)
     println(zx)
+
+    val lengthZx = length(x)
+    println(lengthZx)
 
   }
 
