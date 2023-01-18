@@ -95,31 +95,21 @@ object List {
   def append[A](a1: List[A], a2: List[A]): List[A] =
     foldRight(a1, a2)((x, y) => Cons(x, y))
 
+  // 3.15
+  def flatten[A](a1: List[List[A]]): List[A] = {
+    foldRight(a1, Nil: List[A])(append)
+
+  }
+
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
 
   def main(args: Array[String]): Unit = {
-    val x = List(1, 2, 3, 4)
-    val zxy = List(5, 6)
-    val y = List(1.0, 2.0, 3.0, 4.0)
-    val z = dropWhile(x)(x => x < 3)
-    println(z)
+    val l = List(List(1, 2, 3, 4), List(1, 2, 3, 4))
+    val flattened = flatten(l)
+    println(flattened)
 
-    val zx = init(x)
-    println(zx)
-
-    val lengthZx = length2(x)
-    println(lengthZx)
-
-    val sumx = sum3(x)
-    println(sumx)
-
-    val productx = product3(y)
-    println(productx)
-
-    val abc = append(x, zxy)
-    println(abc)
   }
 
 }
