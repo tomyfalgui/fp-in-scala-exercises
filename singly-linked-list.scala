@@ -91,12 +91,17 @@ object List {
   def product3(ns: List[Double]) =
     foldRight(ns, 1.0)(_ * _)
 
+  // exercise 3.14
+  def append[A](a1: List[A], a2: List[A]): List[A] =
+    foldRight(a1, a2)((x, y) => Cons(x, y))
+
   def apply[A](as: A*): List[A] =
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
 
   def main(args: Array[String]): Unit = {
     val x = List(1, 2, 3, 4)
+    val zxy = List(5, 6)
     val y = List(1.0, 2.0, 3.0, 4.0)
     val z = dropWhile(x)(x => x < 3)
     println(z)
@@ -113,6 +118,8 @@ object List {
     val productx = product3(y)
     println(productx)
 
+    val abc = append(x, zxy)
+    println(abc)
   }
 
 }
