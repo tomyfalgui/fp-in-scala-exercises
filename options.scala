@@ -20,9 +20,6 @@ trait Option[+A] {
     map(Some(_)).getOrElse(ob)
   }
   def filter(f: A => Boolean): Option[A] = {
-    this match {
-      case Some(a) if f(a) => this
-      case _               => None
-    }
+    flatMap(a => if (f(a)) Some(a) else None)
   }
 }
